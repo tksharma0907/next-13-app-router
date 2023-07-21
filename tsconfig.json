@@ -20,14 +20,30 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["/src/*"],
       "@redux/*": ["./src/redux/*"],
+      "@redux": ["./src/redux"],
+
       "@dataProvider/*": ["./src/dataProvider/*"],
+      "@dataProvider": ["./src/dataProvider"],
+
       "@common/*": ["./src/components/common/*"],
+      "@common": ["./src/components/common"],
+
       "@feature/*": ["./src/components/feature/*"],
+      "@feature": ["./src/components/feature"],
+
       "@utils/*": ["./src/utils/*"],
+      "@utils": ["./src/utils"],
+
       "@constants/*": ["./src/constants/*"],
-      "@hooks/*": ["./src/hooks/*"]
+      "@constants": ["./src/constants"],
+
+      "@hooks/*": ["./src/hooks/*"],
+      "@hooks": ["./src/hooks"],
+
+      "@i18n/*": ["./src/app/i18n/*"],
+      "@i18n": ["./src/app/i18n"]
     }
   },
   "include": [
