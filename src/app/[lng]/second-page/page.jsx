@@ -1,5 +1,6 @@
 "use client";
 
+import withAuth from "@common/Auth";
 import Link from "next/link";
 import { useTranslation } from "../../i18n";
 
@@ -13,4 +14,4 @@ const SecondPage = ({ params: { lng } }) => {
   );
 };
 
-export default SecondPage;
+export default withAuth(SecondPage);

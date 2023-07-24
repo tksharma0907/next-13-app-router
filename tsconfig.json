@@ -57,7 +57,8 @@
     "src/redux/services/userApi.js",
     "src/redux/hooks.js",
     "src/redux/provider.jsx",
-    "src/redux/store.js"
+    "src/redux/store.js",
+    "src/dataProvider/axios/index.js"
   ],
   "exclude": ["node_modules"]
 }
