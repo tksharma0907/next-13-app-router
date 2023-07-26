@@ -1,7 +1,4 @@
-"use client";
-
 import { languages } from "@i18n/settings";
-import { useAppSelector } from "@redux/hooks";
 import { dir } from "i18next";
 
 export const generateStaticParams = async () => {
